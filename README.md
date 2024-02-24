@@ -6,3 +6,5 @@ https://www.petecodes.co.uk/install-and-use-microsoft-dot-net-8-with-the-raspber
 
 Node installation
 https://pimylifeup.com/raspberry-pi-nodejs/
+// check memory
+ps ax -o comm,%mem,user,pid --sort=-%mem | head -10
